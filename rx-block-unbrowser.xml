@@ -64,6 +64,16 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+  <prescription type="activity" package="idm.internet.download.manager.plus" class="acr.browser.lightning.activity.MainActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.APP_BROWSER" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
     <!-- WiFi万能钥匙 国内版 -->
   <prescription type="activity" package="com.snda.wifilocating" class="com.lantern.browser.ui.BrowserActivity" sender="other">
