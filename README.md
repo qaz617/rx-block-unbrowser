@@ -11,7 +11,7 @@
   * Last Pass
   * 今日头条
   * WiFi 万能钥匙(含 play 版)
-  * IDM+
+  * IDM+ & Lite
   * FV 悬浮球
   * ADM Pro
   * 西瓜视频
