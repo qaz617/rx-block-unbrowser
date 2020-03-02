@@ -62,14 +62,7 @@
       <cat name="android.intent.category.DEFAULT" />
       <scheme name="http" />
       <scheme name="https" />
-    </intent-filter>
-  </prescription>
-  <prescription type="activity" package="idm.internet.download.manager.plus" class="acr.browser.lightning.activity.MainActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.MAIN" />
-      <cat name="android.intent.category.BROWSABLE" />
-      <cat name="android.intent.category.APP_BROWSER" />
-      <cat name="android.intent.category.DEFAULT" />
+      <mimeType name="*/*" />
     </intent-filter>
   </prescription>
 
@@ -279,6 +272,7 @@
       <cat name="android.intent.category.DEFAULT" />
       <scheme name="http" />
       <scheme name="https" />
+      <mimeType name="*/*" />
     </intent-filter>
   </prescription>
   
