@@ -62,7 +62,6 @@
       <cat name="android.intent.category.DEFAULT" />
       <scheme name="http" />
       <scheme name="https" />
-      <type name="*/*" />
     </intent-filter>
   </prescription>
 
@@ -272,7 +271,6 @@
       <cat name="android.intent.category.DEFAULT" />
       <scheme name="http" />
       <scheme name="https" />
-      <type name="*/*" />
     </intent-filter>
   </prescription>
   
