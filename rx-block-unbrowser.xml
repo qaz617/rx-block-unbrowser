@@ -317,4 +317,16 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+  
+
+  <!-- 慢读 -->
+  <prescription type="activity" package="pro.mandu.enjoyreading" class="pro.mandu.enjoyreading.MainActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
